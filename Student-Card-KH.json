@@ -1,0 +1,56 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+      "id": "f8c5999c-ee21-4f01-a29e-4a6fcc72f0e0:string:1231be64-acf3-4b22-8eed-cb699ecd55d2",
+      "$template": {
+          "name": "3280f479-9e53-47d6-8af3-0b3a1459512b:string:MoEYS_STUDENT_CARD_KH",
+          "type": "7b3d958f-44a1-449e-8438-ba7b42ee29a6:string:EMBEDDED_RENDERER",
+          "url": "2c109ccf-48d5-452d-8a10-5f385c6f1b9c:string:https://renderer.verifykh.com"
+      },
+      "certificate": {
+          "id": "1506896d-5749-44d2-8abf-c4347af202b6:string:1231be64-acf3-4b22-8eed-cb699ecd55d2",
+          "cardId": "aea411d1-eddf-469a-b90c-1fee15e141e4:string:15756",
+          "class": "ad2a24d4-bb68-46e2-8787-4b1ef49d4e2d:string:9A",
+          "classLeader": "74637179-64bc-46a0-9da7-2876efb6976f:string:សាត់ ចិន្តា",
+          "provincePrefix": "98a5f4c5-0581-4130-a781-c9f18ce79900:string:ខេត្ត",
+          "province": "c87e02ca-e025-474b-a2c4-3da336f6a101:string:កណ្តាល",
+          "yearOfStudy": "ca3fd56c-ab67-4af2-b234-847785afa9c5:string:២០២២ - ២០២៣",
+          "school": "861ec5ec-d25b-4d5d-bbe2-37ac7ae715d4:string:អនុវិទ្យាល័យ មាត់ក្រសាស់",
+          "issueDate": "441a732a-1977-4eac-9b2c-37d2838907d6:string:ថ្ងៃទី ៣ ខែ មីនា ឆ្នាំ ២០២៣"
+      },
+      "recipient": {
+          "studentId": "fb9de991-f9f5-47dc-9d7e-f09d5784199f:string:0121008361",
+          "name": "9786b685-dddc-4597-98bf-6842ff052fb0:string:ងួន សុខឡាយ",
+          "dateOfBirth": "ada82cd4-fb79-49da-9f7e-621017cf4624:string:08/01/2008",
+          "phoneNumber": "a7cde486-5915-4c1a-a342-8ace0f8563a9:string:081648046",
+          "photoUrl": "58680ddb-6017-4c7b-add3-c130c02b7810:string:https://storage.verifykh.com/dgs-bac2-photo/111222.png",
+          "gender": "ab22ad30-e95c-447b-9274-bd5217d1898b:string:ប្រុស",
+          "nation": "d9232589-0908-455e-841f-5846020a958f:string:ខ្មែរ",
+          "permanentAddress": "7818b0ea-9ee1-409d-acf5-e4ba6b8eccaf:string:ភូមិតាស្គរ ឃុំសារិកាកែវ ស្រុកល្វាឯម ខេត្តកណ្តាល",
+          "currentAddress": "d498c880-79b3-4237-8177-831fdf2e11cb:string:ភូមិតាស្គរ សង្កាត់សារិកាកែវ ក្រុងអរិយក្សត្រ ខេត្តកណ្ដាល",
+          "ethnic": "d912e372-8633-4023-b4b2-c1c55daa1da6:string:ខ្មែរ",
+          "religion": "d5b11f64-3e04-479b-9be1-48a8614ca885:string:ពុទ្ធសាសនា",
+          "motherName": "543c46c5-42ef-4381-ad59-f174b2decd17:string:ងួន ប៊ុនធឿន",
+          "fatherName": "275e81af-b1f2-44f8-ab13-e23d71e31ea4:string:សៀម បុប្ផា",
+          "motherJob": "d9683f1f-716f-44ab-85b3-d1be9c61b620:string:មេផ្ទះ",
+          "fatherJob": "baefe07c-524e-4db7-9a3f-d2560fda2836:string:ជាងសំណង់"
+      },
+      "issuers": [
+          {
+              "name": "1bcc56b1-c810-4515-b966-fec7df0d087f:string:Digital Government Committee",
+              "documentStore": "522c71b6-dfce-415e-a932-d415c7e7aa9b:string:0x3a9EB1fF80d1D3BA337A3eAFF4418c9022957Fda",
+              "url": "f7b047d8-2bad-4358-b9aa-0ce2263a3fdc:string:https://verifykh.com",
+              "identityProof": {
+                  "type": "aa80394a-1ed3-482b-adf5-1f25dd9b60e3:string:DNS-TXT",
+                  "location": "e3532ddc-392d-4bf2-9304-74a7c0104888:string:verifykh.com"
+              }
+          }
+      ]
+  },
+  "signature": {
+      "type": "SHA3MerkleProof",
+      "targetHash": "5fcaeb67f923c0d440106b0996c60106dc6cb887f6e915d09d590a1cc1b250a1",
+      "proof": [],
+      "merkleRoot": "5fcaeb67f923c0d440106b0996c60106dc6cb887f6e915d09d590a1cc1b250a1"
+  }
+}
